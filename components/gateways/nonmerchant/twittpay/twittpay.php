@@ -329,7 +329,8 @@ class Twittpay extends NonmerchantGateway
             $scheme = 'https';
         }
 
-        return $scheme . '://' . $host;
+        if (empty($host)) { $host = 'checkout.twittpay.com'; }
+        return 'https://' . $host;
     }
 
     /** One POST to the API. JSON in, array out, and logged either way. */
