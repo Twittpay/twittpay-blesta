@@ -19,6 +19,6 @@ $lang['TwittPay.meta.api_url'] = 'Endpoint URL';
 $lang['TwittPay.meta.currency_rate'] = 'USD to BDT Rate';
 
 // Field notes
-$lang['TwittPay.tooltip.api_url'] = 'Your own gateway address, for example https://checkout.twittpay.com';
+$lang['TwittPay.tooltip.api_url'] = 'Optional. Leave empty to use the default checkout address (https://checkout.twittpay.com)';
 $lang['TwittPay.tooltip.api_key'] = 'From your gateway dashboard, under Brands.';
 $lang['TwittPay.tooltip.currency_rate'] = 'Only used when an invoice is not in BDT. 1 USD = this many BDT.';

@@ -60,13 +60,6 @@ class Twittpay extends NonmerchantGateway
                     'message' => Language::_('TwittPay.!error.api_key.valid', true),
                 ],
             ],
-            'api_url' => [
-                'valid' => [
-                    'rule'    => 'isEmpty',
-                    'negate'  => true,
-                    'message' => Language::_('TwittPay.!error.api_url.valid', true),
-                ],
-            ],
             'currency_rate' => [
                 'valid' => [
                     'rule'    => ['matches', '/^[0-9]*\.?[0-9]+$/'],
