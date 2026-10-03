@@ -1,0 +1,31 @@
+<ul>
+    <li>
+        <?php
+        $this->Form->label($this->_('TwittPay.meta.api_url', true), 'api_url');
+        $this->Form->fieldText(
+            'api_url',
+            ($meta['api_url'] ?? null),
+            ['id' => 'api_url', 'class' => 'block', 'placeholder' => 'https://checkout.twittpay.com']
+        );
+        ?>
+        <span class="tooltip"><?php $this->_('TwittPay.tooltip.api_url'); ?></span>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_('TwittPay.meta.api_key', true), 'api_key');
+        $this->Form->fieldText('api_key', ($meta['api_key'] ?? null), ['id' => 'api_key', 'class' => 'block']);
+        ?>
+        <span class="tooltip"><?php $this->_('TwittPay.tooltip.api_key'); ?></span>
+    </li>
+    <li>
+        <?php
+        $this->Form->label($this->_('TwittPay.meta.currency_rate', true), 'currency_rate');
+        $this->Form->fieldText(
+            'currency_rate',
+            ($meta['currency_rate'] ?? '120'),
+            ['id' => 'currency_rate', 'class' => 'block']
+        );
+        ?>
+        <span class="tooltip"><?php $this->_('TwittPay.tooltip.currency_rate'); ?></span>
+    </li>
+</ul>

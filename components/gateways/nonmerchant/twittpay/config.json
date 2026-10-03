@@ -1,0 +1,15 @@
+{
+	"version": "1.0.0",
+	"name": "TwittPay.name",
+	"description": "TwittPay.description",
+	"authors": [
+		{
+			"name": "TwittPay",
+			"url": "https://checkout.twittpay.com"
+		}
+	],
+	"currencies": [
+		"BDT", "USD"
+	],
+	"signup_url": "https://checkout.twittpay.com"
+}
