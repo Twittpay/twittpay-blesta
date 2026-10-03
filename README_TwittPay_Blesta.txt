@@ -15,10 +15,6 @@
    2. Find "TwittPay" and click Install.
    3. Fill in the three fields:
 
-        Endpoint URL      your own gateway address, e.g.
-                          https://checkout.twittpay.com
-                          (this is the API host - the same one on your
-                          gateway's developer page)
 
         Brand Key           from your gateway dashboard, under Brands
 
@@ -55,8 +51,6 @@
    BDT rate.
 
  WHAT TO WATCH
-   * The Endpoint URL is your API host. Pasting the whole endpoint or a trailing
-     /api is fine - only the scheme and host are used.
    * Refunds and voids are not supported through the API. Refund on your
      gateway's side, then record it in Blesta by hand.
    * Every API call is written to Blesta's gateway log

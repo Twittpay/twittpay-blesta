@@ -9,16 +9,13 @@ $lang['TwittPay.description'] = 'Accept bKash, Nagad, Rocket, Upay and card paym
 
 // Errors
 $lang['TwittPay.!error.api_key.valid'] = 'Please enter your Brand Key.';
-$lang['TwittPay.!error.api_url.valid'] = 'Please enter your Endpoint URL.';
 $lang['TwittPay.!error.currency_rate.valid'] = 'The USD to BDT rate must be a number.';
 $lang['TwittPay.!error.api.response'] = 'The gateway could not start this payment. Please try again or contact support.';
 
 // Settings
 $lang['TwittPay.meta.api_key'] = 'Brand Key';
-$lang['TwittPay.meta.api_url'] = 'Endpoint URL';
 $lang['TwittPay.meta.currency_rate'] = 'USD to BDT Rate';
 
 // Field notes
-$lang['TwittPay.tooltip.api_url'] = 'Optional. Leave empty to use the default checkout address (https://checkout.twittpay.com)';
 $lang['TwittPay.tooltip.api_key'] = 'From your gateway dashboard, under Brands.';
 $lang['TwittPay.tooltip.currency_rate'] = 'Only used when an invoice is not in BDT. 1 USD = this many BDT.';
